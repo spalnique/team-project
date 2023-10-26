@@ -2,6 +2,19 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1C2225;
+    overflow-x: hidden;
+    color: beige;
+}
+
+svg {
+    width: 100%;
+    height: auto;
 }
 
 .container {
@@ -9,13 +22,60 @@
     margin: 0 auto;
 }
 
+.icon-container {
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 100px 0;
+
+}
+
 .header-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
     padding: 24px;
 }
 
-.icons-test {
-    scale: 0.5;
-    display: block;
-    margin: 0 auto;
+.logo-container {}
+
+.icon {
     fill: #ECD979;
+}
+
+.ornament-wrapper {
+    position: relative;
+    width: 100vw;
+    height: 3000px;
+}
+
+.ornament-container {
+    position: absolute;
+}
+
+.ornament-container:nth-child(1) {
+    top: 300px;
+    right: 0;
+    fill: rgba(252, 249, 249, 0.10);
+    /* stroke: rgba(252, 249, 249, 0.10); */
+}
+
+.ornament-container:nth-child(2) {
+    top: 900px;
+    left: -169px;
+    fill: rgb(236, 217, 121);
+    stroke: rgb(236, 217, 121);
+}
+
+.ornament-container:nth-child(3) {
+    top: 1300px;
+    left: -220px;
+    fill: rgba(252, 249, 249, 0.10);
+    /* stroke: rgba(252, 249, 249, 0.10); */
+}
+
+.ornament-container:nth-child(4) {
+    bottom: -104px;
+    right: -99px;
+    fill: rgb(236, 217, 121);
+    stroke: rgb(236, 217, 121);
 }
