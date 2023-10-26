@@ -61,7 +61,7 @@ svg {
 
 .ornament-container:nth-child(2) {
     top: 900px;
-    left: -169px;
+    left: 0;
     fill: rgb(236, 217, 121);
     stroke: rgb(236, 217, 121);
 }
