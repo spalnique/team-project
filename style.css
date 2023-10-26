@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header-container {
+    padding: 24px;
+}
+
+.icons-test {
+    scale: 0.5;
+    display: block;
+    margin: 0 auto;
+    fill: #ECD979;
+}
