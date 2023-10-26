@@ -12,6 +12,10 @@ body {
     color: beige;
 }
 
+img {
+    display: block;
+}
+
 svg {
     width: 100%;
     height: auto;
@@ -22,58 +26,55 @@ svg {
     margin: 0 auto;
 }
 
-.icon-container {
+.vector-container {
     /* display: flex;
     justify-content: space-between; */
-    padding: 100px 0;
+    padding: 100px;
 
 }
 
 .header-container {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    padding: 24px;
+    padding: 50px;
 }
 
 .logo-container {}
 
-.icon {
+.vector {
     fill: #ECD979;
 }
 
-.ornament-wrapper {
+.pattern-wrapper {
     position: relative;
     width: 100vw;
-    height: 3000px;
+    height: 2000px;
 }
 
-.ornament-container {
+.pattern-container {
     position: absolute;
 }
 
-.ornament-container:nth-child(1) {
+.pattern-container:nth-child(1) {
     top: 300px;
     right: 0;
     fill: rgba(252, 249, 249, 0.10);
     /* stroke: rgba(252, 249, 249, 0.10); */
 }
 
-.ornament-container:nth-child(2) {
+.pattern-container:nth-child(2) {
     top: 900px;
     left: 0;
     fill: rgb(236, 217, 121);
     stroke: rgb(236, 217, 121);
 }
 
-.ornament-container:nth-child(3) {
+.pattern-container:nth-child(3) {
     top: 1300px;
     left: -220px;
     fill: rgba(252, 249, 249, 0.10);
     /* stroke: rgba(252, 249, 249, 0.10); */
 }
 
-.ornament-container:nth-child(4) {
+.pattern-container:nth-child(4) {
     bottom: -104px;
     right: -99px;
     fill: rgb(236, 217, 121);
