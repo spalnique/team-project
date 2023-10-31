@@ -7,9 +7,22 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #1C2225;
     overflow-x: hidden;
     color: beige;
+    background-image: url(./images/aboutus-girl-desk1x-3.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+}
+
+main {
+    display: block;
+    flex-grow: 1;
 }
 
 img {
@@ -26,11 +39,17 @@ svg {
     margin: 0 auto;
 }
 
+.text {
+    margin: 0 auto;
+    width: 600px;
+    font-size: 14px;
+    line-height: 1.145em;
+}
+
 .vector-container {
     /* display: flex;
     justify-content: space-between; */
     padding: 100px;
-
 }
 
 .header-container {
@@ -41,13 +60,16 @@ svg {
 
 .vector {
     fill: #ECD979;
+}
+
+.vector:nth-child(6),
+.vector:nth-child(7) {
     stroke: #ECD979;
 }
 
 .pattern-wrapper {
     position: relative;
     width: 100vw;
-    height: 2000px;
 }
 
 .pattern-container {
